@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#hd2{
+    height: 40px;
+    width: 500px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(233, 255, 89);
+}
+
+.heading{
+    color: red;
+    text-align: center;
+    text-decoration: line-through;
+
+}
+
+body{
+    background-image: url("image.jpg");
+}
+p{
+    border: 7px black solid ;
+    background-color: aliceblue;
+}

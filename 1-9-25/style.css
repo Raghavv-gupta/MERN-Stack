@@ -1,0 +1,25 @@
+#head{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    line-height: 1px;
+}
+
+#box{
+    height: 400px;
+    width: 250px;
+    border: 2px black solid;
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    border: 2px black solid;
+    border-radius: 50px;
+    margin: 40px 0px 0px 80px;
+}
+
+#1 {
+    background-color: aqua;
+}
