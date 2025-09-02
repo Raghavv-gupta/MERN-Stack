@@ -1,10 +1,40 @@
-.main{
-    height: 200px;
-    width: 200px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: darkkhaki;
+    height: 500px;
+    width: 500px;
+}
+
+#box{
+    background-color: rgb(115, 115, 198);
+    height: 120px;
+    width: 120px;
+    margin: 15px 0 0 15px;
+    float: right;
+}
+
+
+#main{
+    height: 500px;
+    width: 500px;
     border: 2px black solid;
+    display: flex;
+    align-items:center; 
+     justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 .box{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 1px black solid;
+    background-color: rgb(142, 255, 113);
+    float: left;
 }
